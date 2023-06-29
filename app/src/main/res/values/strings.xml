@@ -1,3 +1,9 @@
 <resources>
     <string name="app_name">TravelExpenses</string>
+    <string name="dist_nce">Travelled distance</string>
+    <string name="travelled_dis_ance_km">Total travelled distance (km)</string>
+    <string name="pri_e">Fuel price</string>
+    <string name="pric_per_liter">Price per liter</string>
+    <string name="auto_omy">Autonomy</string>
+    <string name="autono_km_l">Autonomy (km/l)</string>
 </resources>
