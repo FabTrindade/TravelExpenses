@@ -6,4 +6,7 @@
     <string name="pric_per_liter">Price per liter</string>
     <string name="auto_omy">Autonomy</string>
     <string name="autono_km_l">Autonomy (km/l)</string>
+    <string name="tot_l_cost">Total Expense:</string>
+    <string name="tot_l_value">$ 0</string>
+    <string name="calcu_te">Calculate</string>
 </resources>

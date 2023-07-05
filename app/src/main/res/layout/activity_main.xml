@@ -29,6 +29,7 @@
     <EditText
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
+        android:layout_marginTop="32dp"
         android:hint="@string/dist_nce">
 
     </EditText>
@@ -36,6 +37,7 @@
     <TextView
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
+        android:layout_marginTop="2dp"
         android:gravity="center"
         android:text="@string/travelled_dis_ance_km">
 
@@ -43,6 +45,7 @@
     <EditText
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
         android:hint="@string/auto_omy">
 
     </EditText>
@@ -50,6 +53,7 @@
     <TextView
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
+        android:layout_marginTop="2dp"
         android:gravity="center"
         android:text="@string/autono_km_l">
 
@@ -57,6 +61,7 @@
     <EditText
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
         android:hint="@string/pri_e">
 
     </EditText>
@@ -64,10 +69,47 @@
     <TextView
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
+        android:layout_marginTop="2dp"
         android:gravity="center"
         android:text="@string/pric_per_liter">
 
     </TextView>
 
+    <TextView
+        android:layout_width="match_parent"
+
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:textSize="18dp"
+        android:layout_marginTop="16dp"
+        android:textStyle="bold"
+        android:textAllCaps="true"
+        android:text="@string/tot_l_cost">
+    </TextView>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:textSize="32dp"
+        android:textStyle="bold"
+        android:layout_marginTop="8dp"
+        android:textAllCaps="true"
+        android:textColor="@color/total_value_color"
+        android:text="@string/tot_l_value">
+    </TextView>
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="16dp"
+        android:layout_marginTop="32dp"
+        android:backgroundTint="@color/calcu_te_btn_color"
+        android:textAllCaps="true"
+        android:textSize="24dp"
+        android:text="@string/calcu_te"
+
+        >
+    </Button>
 
 </LinearLayout>

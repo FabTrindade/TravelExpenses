@@ -2,4 +2,6 @@
 <resources>
     <color name="black">#FF000000</color>
     <color name="white">#FFFFFFFF</color>
+    <color name="total_value_color">#051675</color>
+    <color name="calcu_te_btn_color">#5AA59A</color>
 </resources>
