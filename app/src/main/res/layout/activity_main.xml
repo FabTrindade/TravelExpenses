@@ -27,6 +27,7 @@
     </LinearLayout>
 
     <EditText
+        android:id="@+id/edit_distance"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_marginTop="32dp"
@@ -43,6 +44,7 @@
 
     </TextView>
     <EditText
+        android:id="@+id/edit_autonomy"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_marginTop="16dp"
@@ -59,6 +61,7 @@
 
     </TextView>
     <EditText
+        android:id="@+id/edit_price"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_marginTop="16dp"
@@ -76,6 +79,7 @@
     </TextView>
 
     <TextView
+        android:id="@+id/text_totalvalue"
         android:layout_width="match_parent"
 
         android:layout_height="wrap_content"
@@ -100,6 +104,7 @@
     </TextView>
 
     <Button
+        android:id="@+id/button_calculate"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:padding="16dp"
