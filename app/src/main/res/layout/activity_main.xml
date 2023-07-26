@@ -28,6 +28,7 @@
 
     <EditText
         android:id="@+id/edit_distance"
+        android:inputType="numberDecimal"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_marginTop="32dp"
@@ -45,6 +46,7 @@
     </TextView>
     <EditText
         android:id="@+id/edit_autonomy"
+        android:inputType="numberDecimal"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_marginTop="16dp"
@@ -62,6 +64,7 @@
     </TextView>
     <EditText
         android:id="@+id/edit_price"
+        android:inputType="numberDecimal"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_marginTop="16dp"
