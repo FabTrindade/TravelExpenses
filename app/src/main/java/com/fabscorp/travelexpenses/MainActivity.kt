@@ -3,6 +3,7 @@ package com.fabscorp.travelexpenses
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import android.view.View
+import android.widget.Toast
 import com.fabscorp.travelexpenses.databinding.ActivityMainBinding
 
 class MainActivity : AppCompatActivity(), View.OnClickListener {
@@ -13,16 +14,15 @@ class MainActivity : AppCompatActivity(), View.OnClickListener {
         setContentView(binding.root)
 
         binding.buttonCalculate.setOnClickListener(this)
-        binding.buttonCalculate.setOnClickListener {
-            TODO("Not yet implemented")
-        }
     }
     override fun onClick(view: View) {
-        TODO("Not yet implemented")
+        if (view.id == R.id.button_calculate){
+            calculate();
+        }
     }
 
-    fun btnCalculate(view: View) {
-
+    private fun calculate() {
+        //Toast notification
+        Toast.makeText(this, "I was clicked!", Toast.LENGTH_SHORT).show()
     }
-
 }
