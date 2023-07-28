@@ -13,12 +13,9 @@ class MainActivity : AppCompatActivity(), View.OnClickListener {
         setContentView(binding.root)
 
         binding.buttonCalculate.setOnClickListener(this)
-        binding.buttonCalculate.setOnClickListener(object: View.OnClickListener{
-            override fun onClick(v: View?) {
-                TODO("Not yet implemented")
-            }
-
-        })
+        binding.buttonCalculate.setOnClickListener {
+            TODO("Not yet implemented")
+        }
     }
     override fun onClick(view: View) {
         TODO("Not yet implemented")
