@@ -107,6 +107,7 @@
     </TextView>
 
     <Button
+        android:onClick="btnCalculate"
         android:id="@+id/button_calculate"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
