@@ -17,12 +17,20 @@ class MainActivity : AppCompatActivity(), View.OnClickListener {
     }
     override fun onClick(view: View) {
         if (view.id == R.id.button_calculate){
-            calculate();
+            calculate()
         }
     }
 
     private fun calculate() {
+        val distance = binding.editDistance.text.toString().toFloat()
+        val price = binding.editPrice.text.toString().toFloat()
+        val autonomy = binding.editAutonomy.text.toString().toFloat()
+
+        val totalValue = (distance * price) / autonomy
+
+        binding.textShowTotalValue.text = "$ ${"%.2f".format(totalValue)}"
+
         //Toast notification
-        Toast.makeText(this, "I was clicked!", Toast.LENGTH_SHORT).show()
+        //Toast.makeText(this, "R$ ${"%.2f".format(totalValue)}", Toast.LENGTH_SHORT).show()
     }
 }
