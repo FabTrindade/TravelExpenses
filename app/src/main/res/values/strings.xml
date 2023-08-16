@@ -9,4 +9,6 @@
     <string name="tot_l_cost">Total Expense:</string>
     <string name="tot_l_value">$ 0</string>
     <string name="calcu_te">Calculate</string>
+    <string name="validation_fill_fields">Fill all fields!</string>
+
 </resources>
